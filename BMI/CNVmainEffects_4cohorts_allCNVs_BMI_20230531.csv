@@ -1,0 +1,426 @@
+locus,genotype,cohort,testable_CNV_n225,CNV_effect_label,estimate_CNV_main,SE_CNV_main,p_CNV_main,p_het_MA
+10q11.21q11.23_DEL,deletion,EstBB,no,no effect,0.1376953,0.4449611,0.756976,NA
+10q11.21q11.23_DUP,duplication,EstBB,no,no effect,-0.1931078,0.2872484,0.501414,NA
+10q22q23_DEL,deletion,EstBB,no,no effect,0.1975688,0.9951347,0.842627,NA
+10q22q23_DUP,duplication,EstBB,no,no effect,0.0012588,0.5744337,0.998251,NA
+13q12.12_DEL,deletion,EstBB,no,no effect,-0.3247021,0.1706744,0.057112,NA
+13q12.12_DUP,duplication,EstBB,yes,no effect,0.1537355,0.1010682,0.128235,NA
+15q11.2__BP1_BP2_CYFIP_DEL,deletion,EstBB,yes,positive,0.0518497,0.0453451,0.252855,NA
+15q11.2__BP1_BP2_CYFIP_DUP,duplication,EstBB,yes,positive,0.1229216,0.0509033,0.015745,NA
+15q11.2q12_BP1_BP4_DEL,deletion,EstBB,no,no effect,NA,NA,NA,NA
+15q11.2q12_BP1_BP4_DUP,duplication,EstBB,no,suggestive positive,0.5830797,0.2872458,0.04237,NA
+15q13.1q13.2_DEL,deletion,EstBB,no,suggestive positive,-0.1488092,0.2345322,0.525759,NA
+15q13.1q13.2_DUP,duplication,EstBB,no,no effect,-0.2043331,0.2345345,0.383631,NA
+15q13.1q13.3_DEL,deletion,EstBB,no,suggestive positive,-0.3483295,0.9949887,0.726276,NA
+15q13.1q13.3_DUP,duplication,EstBB,no,no effect,-0.1186098,0.2074829,0.567552,NA
+15q13.3_inclCHRNA7_DEL,deletion,EstBB,yes,positive,0.6387877,0.1880467,0.000682,NA
+15q13.3_inclCHRNA7_DUP,duplication,EstBB,yes,no effect,0.1489447,0.1306725,0.254358,NA
+16p11.2_distal_DEL,deletion,EstBB,no,positive,0.8702411,0.2074788,2.74E-05,NA
+16p11.2_distal_DUP,duplication,EstBB,yes,negative,-0.4481165,0.155414,0.003935,NA
+16p11.2_proximal_DEL,deletion,EstBB,yes,positive,0.6521127,0.123452,1.28E-07,NA
+16p11.2_proximal_DUP,duplication,EstBB,yes,negative,-0.3709914,0.1295731,0.004195,NA
+16p12.1_BP1_BP2_DEL,deletion,EstBB,yes,negative,-0.086181,0.0476041,0.070241,NA
+16p12.1_BP1_BP2_DUP,duplication,EstBB,yes,positive,0.3194149,0.086964,0.00024,NA
+16p12.1_BP2_BP3_DEL,deletion,EstBB,yes,positive,0.0426703,0.1037698,0.680925,NA
+16p12.1_BP2_BP3_DUP,duplication,EstBB,yes,no effect,0.3121398,0.1573597,0.047301,NA
+16p13.11_BP1_BP2_DEL,deletion,EstBB,yes,no effect,-0.0410432,0.1284677,0.749361,NA
+16p13.11_BP1_BP2_DUP,duplication,EstBB,yes,positive,0.1501964,0.0628453,0.016852,NA
+16p13.11_BP1_BP3_DEL,deletion,EstBB,no,no effect,0.5779639,0.2999909,0.054031,NA
+16p13.11_BP1_BP3_DUP,duplication,EstBB,yes,suggestive positive,0.1888531,0.1379955,0.171143,NA
+16p13.11_BP2_BP3_DEL,deletion,EstBB,no,no effect,0.3587756,0.3316505,0.279348,NA
+16p13.11_BP2_BP3_DUP,duplication,EstBB,no,no effect,0.3331608,0.2487518,0.180465,NA
+17p11.2_DEL,deletion,EstBB,no,no effect,0.740596,0.4062228,0.068286,NA
+17p11.2_DUP,duplication,EstBB,no,no effect,0.1791234,0.3760746,0.633863,NA
+17p12_DEL,deletion,EstBB,yes,negative,-0.2960278,0.1126953,0.00862,NA
+17p12_DUP,duplication,EstBB,yes,no effect,-0.1641655,0.155422,0.29085,NA
+17q11.2_NF1_DEL,deletion,EstBB,no,no effect,-0.1958306,0.703556,0.780749,NA
+17q11.2_NF1_DUP,duplication,EstBB,no,no effect,-0.3951085,0.9949832,0.691294,NA
+17q12_DEL,deletion,EstBB,no,no effect,0.6271755,0.44496,0.158686,NA
+17q12_DUP,duplication,EstBB,yes,positive,0.3780995,0.1263804,0.002774,NA
+1q21.1_DEL,deletion,EstBB,yes,no effect,0.3665818,0.2171291,0.091353,NA
+1q21.1_DUP,duplication,EstBB,yes,suggestive positive,0.2951633,0.1990109,0.138036,NA
+1q21.1_TAR_BP1_BP2_DEL,deletion,EstBB,yes,no effect,0.0320712,0.06062,0.59677,NA
+1q21.1_TAR_BP1_BP2_DUP,duplication,EstBB,yes,no effect,0.1336847,0.1055071,0.205132,NA
+1q21.1_TAR_BP1_BP3_DEL,deletion,EstBB,no,no effect,0.2641557,0.1990168,0.18441,NA
+1q21.1_TAR_BP1_BP3_DUP,duplication,EstBB,yes,suggestive positive,0.0310814,0.1436345,0.828682,NA
+1q21.1_TAR_BP2_BP3_DEL,deletion,EstBB,no,no effect,0.2160072,0.2074915,0.297858,NA
+1q21.1_TAR_BP2_BP3_DUP,duplication,EstBB,yes,no effect,-0.0329233,0.1951524,0.866028,NA
+22q11.2_BP1_BP2_A_B_DEL,deletion,EstBB,no,no effect,0.5061959,0.7035712,0.471855,NA
+22q11.2_BP1_BP2_A_B_DUP,duplication,EstBB,yes,no effect,-0.0829823,0.1759115,0.637122,NA
+22q11.2_BP1_BP4_A_D_DEL,deletion,EstBB,no,no effect,0.1980246,0.195179,0.310308,NA
+22q11.2_BP1_BP4_A_D_DUP,duplication,EstBB,yes,positive,0.2462579,0.0932349,0.00826,NA
+22q11.2_BP2_BP3_B_C_DEL,deletion,EstBB,no,no effect,NA,NA,NA,NA
+22q11.2_BP2_BP3_B_C_DUP,duplication,EstBB,no,no effect,-0.7374706,0.5744721,0.199236,NA
+22q11.2_BP2_BP4_B_D_DEL,deletion,EstBB,no,suggestive negative,-0.0803613,0.2569156,0.754439,NA
+22q11.2_BP2_BP4_B_D_DUP,duplication,EstBB,yes,suggestive positive,0.0878168,0.1393498,0.528572,NA
+22q11.2_BP3_BP4_C_D_DEL,deletion,EstBB,no,suggestive negative,-0.5084851,0.3000025,0.090089,NA
+22q11.2_BP3_BP4_C_D_DUP,duplication,EstBB,yes,no effect,-0.1507214,0.1816709,0.406744,NA
+22q11.2_BP4_BP5_D_E_DEL,deletion,EstBB,no,no effect,NA,NA,NA,NA
+22q11.2_BP4_BP5_D_E_DUP,duplication,EstBB,no,no effect,0.3869429,0.4449706,0.384525,NA
+22q11.2_BP5_BP6_E_F_DEL,deletion,EstBB,no,positive,0.1408882,0.2413417,0.559375,NA
+22q11.2_BP5_BP6_E_F_DUP,duplication,EstBB,no,no effect,-0.2019852,0.2031064,0.319991,NA
+22q11.2_BP6_BP7_F_G_DEL,deletion,EstBB,no,no effect,0.0198984,0.4974919,0.968095,NA
+22q11.2_BP6_BP7_F_G_DUP,duplication,EstBB,no,no effect,-0.0284044,0.1436397,0.843243,NA
+22q11.2_BP6_BP8_F_H_DEL,deletion,EstBB,no,no effect,-0.3329297,0.4974698,0.503339,NA
+22q11.2_BP6_BP8_F_H_DUP,duplication,EstBB,yes,no effect,-0.2549431,0.1847704,0.167655,NA
+22q11.2_BP7_BP8_G_H_DEL,deletion,EstBB,no,no effect,0.1601611,0.2999985,0.59343,NA
+22q11.2_BP7_BP8_G_H_DUP,duplication,EstBB,no,no effect,0.2377634,0.7035491,0.735402,NA
+22q13_DEL,deletion,EstBB,yes,negative,-0.1841321,0.0461508,6.62E-05,NA
+22q13_DUP,duplication,EstBB,no,no effect,0.3673363,0.9948441,0.711949,NA
+2q11.2_DEL,deletion,EstBB,no,positive,0.4931771,0.2345244,0.035478,NA
+2q11.2_DUP,duplication,EstBB,no,suggestive negative,-0.7838738,0.3146483,0.01273,NA
+2q13_DEL,deletion,EstBB,no,suggestive positive,0.2045925,0.2759641,0.458468,NA
+2q13_DUP,duplication,EstBB,no,suggestive negative,NA,NA,NA,NA
+2q13_NPHP1_DEL,deletion,EstBB,yes,no effect,0.0275554,0.0334791,0.410473,NA
+2q13_NPHP1_DUP,duplication,EstBB,yes,no effect,-0.047633,0.0720402,0.508485,NA
+2q21.1_DEL,deletion,EstBB,no,no effect,0.0327519,0.2487503,0.89525,NA
+2q21.1_DUP,duplication,EstBB,no,no effect,0.0305769,0.1880524,0.87084,NA
+3q29_DEL,deletion,EstBB,no,no effect,-0.3446992,0.4449639,0.438537,NA
+3q29_DUP,duplication,EstBB,no,suggestive positive,0.7612348,0.7035614,0.279266,NA
+7q11.23_distal_DEL,deletion,EstBB,no,suggestive positive,1.2320579,0.3760869,0.00105,NA
+7q11.23_distal_DUP,duplication,EstBB,no,no effect,0.1500854,0.4449778,0.7359,NA
+7q11.23_WBS_DEL,deletion,EstBB,no,no effect,0.0835793,0.351795,0.812207,NA
+7q11.23_WBS_DUP,duplication,EstBB,no,no effect,-0.3104743,0.2659453,0.243036,NA
+9q34_DEL,deletion,EstBB,no,no effect,0.0971316,0.2224974,0.662437,NA
+9q34_DUP,duplication,EstBB,no,suggestive positive,0.6659696,0.9949631,0.503279,NA
+NRXN1_DEL,deletion,EstBB,no,positive,NA,NA,NA,NA
+10q11.21q11.23_DEL,deletion,Geisinger,no,no effect,0.199241385,0.199402798,0.317704532,NA
+10q11.21q11.23_DUP,duplication,Geisinger,no,no effect,-0.164406987,0.315250498,0.60201101,NA
+10q22q23_DEL,deletion,Geisinger,no,no effect,NA,NA,NA,NA
+10q22q23_DUP,duplication,Geisinger,no,no effect,0.319581884,0.376798562,0.396355951,NA
+13q12.12_DEL,deletion,Geisinger,no,no effect,-0.087093328,0.176248542,0.621200758,NA
+13q12.12_DUP,duplication,Geisinger,yes,no effect,-0.324055384,0.16174208,0.045122615,NA
+15q11.2__BP1_BP2_CYFIP_DEL,deletion,Geisinger,yes,positive,0.143240891,0.038864502,0.000228227,NA
+15q11.2__BP1_BP2_CYFIP_DUP,duplication,Geisinger,yes,positive,0.063354265,0.04207938,0.132175404,NA
+15q11.2q12_BP1_BP4_DEL,deletion,Geisinger,no,no effect,0.083716645,0.498486944,0.8666296,NA
+15q11.2q12_BP1_BP4_DUP,duplication,Geisinger,no,suggestive positive,1.576847404,0.575543824,0.006149512,NA
+15q13.1q13.2_DEL,deletion,Geisinger,no,suggestive positive,0.382499778,0.24179324,0.113668521,NA
+15q13.1q13.2_DUP,duplication,Geisinger,no,no effect,-0.260676479,0.21755128,0.230829969,NA
+15q13.1q13.3_DEL,deletion,Geisinger,no,suggestive positive,NA,NA,NA,NA
+15q13.1q13.3_DUP,duplication,Geisinger,no,no effect,-0.047195445,0.332300089,0.887059264,NA
+15q13.3_inclCHRNA7_DEL,deletion,Geisinger,yes,positive,0.503222362,0.120926091,3.17E-05,NA
+15q13.3_inclCHRNA7_DUP,duplication,Geisinger,yes,no effect,0.006820734,0.097327222,0.944129764,NA
+16p11.2_distal_DEL,deletion,Geisinger,no,positive,0.837570686,0.185112126,6.06E-06,NA
+16p11.2_distal_DUP,duplication,Geisinger,yes,negative,-0.440291475,0.110119647,6.38E-05,NA
+16p11.2_proximal_DEL,deletion,Geisinger,yes,positive,1.277861629,0.13563678,4.54E-21,NA
+16p11.2_proximal_DUP,duplication,Geisinger,yes,negative,-0.299610981,0.100705145,0.002929251,NA
+16p12.1_BP1_BP2_DEL,deletion,Geisinger,yes,negative,-0.188891226,0.061076238,0.001983844,NA
+16p12.1_BP1_BP2_DUP,duplication,Geisinger,yes,positive,0.118813989,0.073152073,0.104334756,NA
+16p12.1_BP2_BP3_DEL,deletion,Geisinger,yes,positive,0.35656622,0.08227467,1.47E-05,NA
+16p12.1_BP2_BP3_DUP,duplication,Geisinger,yes,no effect,-0.052678011,0.159653481,0.741436717,NA
+16p13.11_BP1_BP2_DEL,deletion,Geisinger,yes,no effect,-0.345362965,0.122742411,0.004898003,NA
+16p13.11_BP1_BP2_DUP,duplication,Geisinger,yes,positive,0.038434527,0.054631464,0.481730909,NA
+16p13.11_BP1_BP3_DEL,deletion,Geisinger,no,no effect,-0.176724435,0.266445699,0.507161404,NA
+16p13.11_BP1_BP3_DUP,duplication,Geisinger,yes,suggestive positive,0.001495679,0.139623414,0.991453054,NA
+16p13.11_BP2_BP3_DEL,deletion,Geisinger,no,no effect,NA,NA,NA,NA
+16p13.11_BP2_BP3_DUP,duplication,Geisinger,no,no effect,NA,NA,NA,NA
+17p11.2_DEL,deletion,Geisinger,no,no effect,0.067635293,0.57555901,0.906454263,NA
+17p11.2_DUP,duplication,Geisinger,no,no effect,NA,NA,NA,NA
+17p12_DEL,deletion,Geisinger,yes,negative,-0.125158619,0.14701679,0.394592332,NA
+17p12_DUP,duplication,Geisinger,yes,no effect,-0.038460081,0.134451497,0.774839035,NA
+17q11.2_NF1_DEL,deletion,Geisinger,no,no effect,NA,NA,NA,NA
+17q11.2_NF1_DUP,duplication,Geisinger,no,no effect,-0.403687402,0.40697292,0.321235277,NA
+17q12_DEL,deletion,Geisinger,no,no effect,-0.094955769,0.287785484,0.74143586,NA
+17q12_DUP,duplication,Geisinger,yes,positive,0.596438103,0.132064034,6.30E-06,NA
+1q21.1_DEL,deletion,Geisinger,yes,no effect,0.196525138,0.133247993,0.140246893,NA
+1q21.1_DUP,duplication,Geisinger,yes,suggestive positive,0.070550221,0.10286847,0.492822091,NA
+1q21.1_TAR_BP1_BP2_DEL,deletion,Geisinger,yes,no effect,-0.093726246,0.185148023,0.612700868,NA
+1q21.1_TAR_BP1_BP2_DUP,duplication,Geisinger,yes,no effect,0.016209525,0.056070739,0.772512557,NA
+1q21.1_TAR_BP1_BP3_DEL,deletion,Geisinger,no,no effect,0.147727403,0.276487105,0.593134179,NA
+1q21.1_TAR_BP1_BP3_DUP,duplication,Geisinger,yes,suggestive positive,0.147685371,0.064688693,0.022431216,NA
+1q21.1_TAR_BP2_BP3_DEL,deletion,Geisinger,no,no effect,0.140128927,0.332295967,0.673245421,NA
+1q21.1_TAR_BP2_BP3_DUP,duplication,Geisinger,yes,no effect,0.116436568,0.072588509,0.108702859,NA
+22q11.2_BP1_BP2_A_B_DEL,deletion,Geisinger,no,no effect,-0.167623828,0.241787733,0.488142458,NA
+22q11.2_BP1_BP2_A_B_DUP,duplication,Geisinger,yes,no effect,0.344675215,0.090681893,0.000144231,NA
+22q11.2_BP1_BP4_A_D_DEL,deletion,Geisinger,no,no effect,-0.243695256,0.23497641,0.299689037,NA
+22q11.2_BP1_BP4_A_D_DUP,duplication,Geisinger,yes,positive,0.350887642,0.089219962,8.40E-05,NA
+22q11.2_BP2_BP3_B_C_DEL,deletion,Geisinger,no,no effect,NA,NA,NA,NA
+22q11.2_BP2_BP3_B_C_DUP,duplication,Geisinger,no,no effect,NA,NA,NA,NA
+22q11.2_BP2_BP4_B_D_DEL,deletion,Geisinger,no,suggestive negative,-0.325387305,0.266438683,0.221995238,NA
+22q11.2_BP2_BP4_B_D_DUP,duplication,Geisinger,yes,suggestive positive,0.798259239,0.217546787,0.000243262,NA
+22q11.2_BP3_BP4_C_D_DEL,deletion,Geisinger,no,suggestive negative,-0.465278246,0.287782766,0.105930931,NA
+22q11.2_BP3_BP4_C_D_DUP,duplication,Geisinger,yes,no effect,0.081339597,0.185137233,0.660410529,NA
+22q11.2_BP4_BP5_D_E_DEL,deletion,Geisinger,no,no effect,NA,NA,NA,NA
+22q11.2_BP4_BP5_D_E_DUP,duplication,Geisinger,no,no effect,NA,NA,NA,NA
+22q11.2_BP5_BP6_E_F_DEL,deletion,Geisinger,no,positive,0.462145472,0.234987777,0.049222682,NA
+22q11.2_BP5_BP6_E_F_DUP,duplication,Geisinger,no,no effect,0.55783058,0.406975397,0.170479318,NA
+22q11.2_BP6_BP7_F_G_DEL,deletion,Geisinger,no,no effect,NA,NA,NA,NA
+22q11.2_BP6_BP7_F_G_DUP,duplication,Geisinger,no,no effect,NA,NA,NA,NA
+22q11.2_BP6_BP8_F_H_DEL,deletion,Geisinger,no,no effect,NA,NA,NA,NA
+22q11.2_BP6_BP8_F_H_DUP,duplication,Geisinger,yes,no effect,0.309825219,0.125625305,0.013654513,NA
+22q11.2_BP7_BP8_G_H_DEL,deletion,Geisinger,no,no effect,NA,NA,NA,NA
+22q11.2_BP7_BP8_G_H_DUP,duplication,Geisinger,no,no effect,NA,NA,NA,NA
+22q13_DEL,deletion,Geisinger,yes,negative,NA,NA,NA,NA
+22q13_DUP,duplication,Geisinger,no,no effect,NA,NA,NA,NA
+2q11.2_DEL,deletion,Geisinger,no,positive,0.474869345,0.24178998,0.049535484,NA
+2q11.2_DUP,duplication,Geisinger,no,suggestive negative,-0.210823178,0.332300655,0.525798226,NA
+2q13_DEL,deletion,Geisinger,no,suggestive positive,0.057743824,0.222943497,0.795630664,NA
+2q13_DUP,duplication,Geisinger,no,suggestive negative,-0.777748949,0.445818414,0.081067323,NA
+2q13_NPHP1_DEL,deletion,Geisinger,yes,no effect,0.02581494,0.036840649,0.483479881,NA
+2q13_NPHP1_DUP,duplication,Geisinger,yes,no effect,0.07633995,0.039161186,0.051252767,NA
+2q21.1_DEL,deletion,Geisinger,no,no effect,-0.146725867,0.249241492,0.556070705,NA
+2q21.1_DUP,duplication,Geisinger,no,no effect,0.032153869,0.212559649,0.879763109,NA
+3q29_DEL,deletion,Geisinger,no,no effect,-0.151783913,0.406982186,0.709186522,NA
+3q29_DUP,duplication,Geisinger,no,suggestive positive,0.063549661,0.44582561,0.886650766,NA
+7q11.23_distal_DEL,deletion,Geisinger,no,suggestive positive,NA,NA,NA,NA
+7q11.23_distal_DUP,duplication,Geisinger,no,no effect,-0.156701841,0.445838913,0.72523165,NA
+7q11.23_WBS_DEL,deletion,Geisinger,no,no effect,-0.160924515,0.445822972,0.718129592,NA
+7q11.23_WBS_DUP,duplication,Geisinger,no,no effect,0.049764194,0.266452194,0.851844487,NA
+9q34_DEL,deletion,Geisinger,no,no effect,NA,NA,NA,NA
+9q34_DUP,duplication,Geisinger,no,suggestive positive,NA,NA,NA,NA
+NRXN1_DEL,deletion,Geisinger,no,positive,NA,NA,NA,NA
+10q11.21q11.23_DEL,deletion,MVP,no,no effect,-0.1133,0.1311,0.388,NA
+10q11.21q11.23_DUP,duplication,MVP,no,no effect,-0.5411,0.2579,0.0359,NA
+10q22q23_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+10q22q23_DUP,duplication,MVP,no,no effect,-0.7905,0.3158,0.0123,NA
+13q12.12_DEL,deletion,MVP,no,no effect,0.0052,0.1103,0.962,NA
+13q12.12_DUP,duplication,MVP,yes,no effect,-0.1334,0.0838,0.112,NA
+15q11.2__BP1_BP2_CYFIP_DEL,deletion,MVP,yes,positive,0.1303,0.0236,3.14E-08,NA
+15q11.2__BP1_BP2_CYFIP_DUP,duplication,MVP,yes,positive,0.0202,0.0188,0.283,NA
+15q11.2q12_BP1_BP4_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+15q11.2q12_BP1_BP4_DUP,duplication,MVP,no,suggestive positive,0.2026,0.1713,0.237,NA
+15q13.1q13.2_DEL,deletion,MVP,no,suggestive positive,0.1677,0.1311,0.201,NA
+15q13.1q13.2_DUP,duplication,MVP,no,no effect,-0.0251,0.1506,0.868,NA
+15q13.1q13.3_DEL,deletion,MVP,no,suggestive positive,0.5263,0.2669,0.0486,NA
+15q13.1q13.3_DUP,duplication,MVP,no,no effect,-0.046,0.0989,0.642,NA
+15q13.3_inclCHRNA7_DEL,deletion,MVP,yes,positive,0.1877,0.085,0.0273,NA
+15q13.3_inclCHRNA7_DUP,duplication,MVP,yes,no effect,-0.0336,0.0491,0.493,NA
+16p11.2_distal_DEL,deletion,MVP,no,positive,0.3325,0.1161,0.00418,NA
+16p11.2_distal_DUP,duplication,MVP,yes,negative,-0.5491,0.0683,8.83E-16,NA
+16p11.2_proximal_DEL,deletion,MVP,yes,positive,0.8164,0.0609,5.67E-41,NA
+16p11.2_proximal_DUP,duplication,MVP,yes,negative,-0.4586,0.0504,9.98E-20,NA
+16p12.1_BP1_BP2_DEL,deletion,MVP,yes,negative,-0.0847,0.0348,0.0151,NA
+16p12.1_BP1_BP2_DUP,duplication,MVP,yes,positive,0.3128,0.1855,0.0916,NA
+16p12.1_BP2_BP3_DEL,deletion,MVP,yes,positive,0.161,0.0581,0.00555,NA
+16p12.1_BP2_BP3_DUP,duplication,MVP,yes,no effect,0.0308,0.0773,0.69,NA
+16p13.11_BP1_BP2_DEL,deletion,MVP,yes,no effect,-0.0391,0.0766,0.61,NA
+16p13.11_BP1_BP2_DUP,duplication,MVP,yes,positive,0.0678,0.0393,0.0846,NA
+16p13.11_BP1_BP3_DEL,deletion,MVP,no,no effect,-0.1008,0.1161,0.385,NA
+16p13.11_BP1_BP3_DUP,duplication,MVP,yes,suggestive positive,0.1232,0.0588,0.0361,NA
+16p13.11_BP2_BP3_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+16p13.11_BP2_BP3_DUP,duplication,MVP,no,no effect,0.178,0.3158,0.573,NA
+17p11.2_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+17p11.2_DUP,duplication,MVP,no,no effect,NA,NA,NA,NA
+17p12_DEL,deletion,MVP,yes,negative,-0.2367,0.071,0.000856,NA
+17p12_DUP,duplication,MVP,yes,no effect,0.0782,0.0966,0.418,NA
+17q11.2_NF1_DEL,deletion,MVP,no,no effect,-0.2393,0.2422,0.323,NA
+17q11.2_NF1_DUP,duplication,MVP,no,no effect,-0.6317,0.3775,0.0942,NA
+17q12_DEL,deletion,MVP,no,no effect,-0.594,0.2578,0.0212,NA
+17q12_DUP,duplication,MVP,yes,positive,0.4581,0.0538,1.65E-17,NA
+1q21.1_DEL,deletion,MVP,yes,no effect,-0.09,0.1335,0.5,NA
+1q21.1_DUP,duplication,MVP,yes,suggestive positive,0.0842,0.0847,0.32,NA
+1q21.1_TAR_BP1_BP2_DEL,deletion,MVP,yes,no effect,0.0888,0.1047,0.397,NA
+1q21.1_TAR_BP1_BP2_DUP,duplication,MVP,yes,no effect,0.0488,0.0366,0.182,NA
+1q21.1_TAR_BP1_BP3_DEL,deletion,MVP,no,no effect,0.163,0.1117,0.144,NA
+1q21.1_TAR_BP1_BP3_DUP,duplication,MVP,yes,suggestive positive,0.0194,0.0457,0.67,NA
+1q21.1_TAR_BP2_BP3_DEL,deletion,MVP,no,no effect,0.1583,0.111,0.154,NA
+1q21.1_TAR_BP2_BP3_DUP,duplication,MVP,yes,no effect,0.0194,0.0457,0.67,NA
+22q11.2_BP1_BP2_A_B_DEL,deletion,MVP,no,no effect,0.085,0.1739,0.625,NA
+22q11.2_BP1_BP2_A_B_DUP,duplication,MVP,yes,no effect,0.0416,0.0606,0.492,NA
+22q11.2_BP1_BP4_A_D_DEL,deletion,MVP,no,no effect,0.1091,0.1739,0.53,NA
+22q11.2_BP1_BP4_A_D_DUP,duplication,MVP,yes,positive,0.0905,0.0476,0.0572,NA
+22q11.2_BP2_BP3_B_C_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+22q11.2_BP2_BP3_B_C_DUP,duplication,MVP,no,no effect,-0.2221,0.2669,0.405,NA
+22q11.2_BP2_BP4_B_D_DEL,deletion,MVP,no,suggestive negative,-0.4274,0.1359,0.00166,NA
+22q11.2_BP2_BP4_B_D_DUP,duplication,MVP,yes,suggestive positive,0.1704,0.0659,0.00969,NA
+22q11.2_BP3_BP4_C_D_DEL,deletion,MVP,no,suggestive negative,-0.2989,0.1713,0.081,NA
+22q11.2_BP3_BP4_C_D_DUP,duplication,MVP,yes,no effect,-0.0097,0.0856,0.909,NA
+22q11.2_BP4_BP5_D_E_DEL,deletion,MVP,no,no effect,-0.4789,0.3011,0.112,NA
+22q11.2_BP4_BP5_D_E_DUP,duplication,MVP,no,no effect,0.1501,0.2497,0.548,NA
+22q11.2_BP5_BP6_E_F_DEL,deletion,MVP,no,positive,0.3003,0.1019,0.00322,NA
+22q11.2_BP5_BP6_E_F_DUP,duplication,MVP,no,no effect,-0.0762,0.1311,0.561,NA
+22q11.2_BP6_BP7_F_G_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+22q11.2_BP6_BP7_F_G_DUP,duplication,MVP,no,no effect,-0.2407,0.2579,0.351,NA
+22q11.2_BP6_BP8_F_H_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+22q11.2_BP6_BP8_F_H_DUP,duplication,MVP,yes,no effect,0.1218,0.1059,0.25,NA
+22q11.2_BP7_BP8_G_H_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+22q11.2_BP7_BP8_G_H_DUP,duplication,MVP,no,no effect,NA,NA,NA,NA
+22q13_DEL,deletion,MVP,yes,negative,NA,NA,NA,NA
+22q13_DUP,duplication,MVP,no,no effect,NA,NA,NA,NA
+2q11.2_DEL,deletion,MVP,no,positive,0.1051,0.1385,0.448,NA
+2q11.2_DUP,duplication,MVP,no,suggestive negative,-0.1707,0.1739,0.326,NA
+2q13_DEL,deletion,MVP,no,suggestive positive,NA,NA,NA,NA
+2q13_DUP,duplication,MVP,no,suggestive negative,NA,NA,NA,NA
+2q13_NPHP1_DEL,deletion,MVP,yes,no effect,0.0419,0.0253,0.0985,NA
+2q13_NPHP1_DUP,duplication,MVP,yes,no effect,-0.0405,0.0277,0.144,NA
+2q21.1_DEL,deletion,MVP,no,no effect,-0.2416,0.1442,0.0937,NA
+2q21.1_DUP,duplication,MVP,no,no effect,0.1145,0.097,0.238,NA
+3q29_DEL,deletion,MVP,no,no effect,-0.4384,0.3011,0.145,NA
+3q29_DUP,duplication,MVP,no,suggestive positive,0.5229,0.2291,0.0225,NA
+7q11.23_distal_DEL,deletion,MVP,no,suggestive positive,NA,NA,NA,NA
+7q11.23_distal_DUP,duplication,MVP,no,no effect,-0.2321,0.2233,0.299,NA
+7q11.23_WBS_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+7q11.23_WBS_DUP,duplication,MVP,no,no effect,-0.1872,0.1794,0.297,NA
+9q34_DEL,deletion,MVP,no,no effect,NA,NA,NA,NA
+9q34_DUP,duplication,MVP,no,suggestive positive,0.3784,0.2883,0.189,NA
+NRXN1_DEL,deletion,MVP,no,positive,NA,NA,NA,NA
+10q11.21q11.23_DEL,deletion,UKBB,no,no effect,0.1505043,0.156045,0.3348,NA
+10q11.21q11.23_DUP,duplication,UKBB,no,no effect,0.1338793,0.1959448,0.4944,NA
+10q22q23_DEL,deletion,UKBB,no,no effect,0.2386945,0.7064592,0.7355,NA
+10q22q23_DUP,duplication,UKBB,no,no effect,0.3313805,0.407879,0.4165,NA
+13q12.12_DEL,deletion,UKBB,no,no effect,0.0429999,0.1177591,0.715,NA
+13q12.12_DUP,duplication,UKBB,yes,no effect,-0.017794,0.0742876,0.8107,NA
+15q11.2__BP1_BP2_CYFIP_DEL,deletion,UKBB,yes,positive,0.0618328,0.0271736,0.0229,NA
+15q11.2__BP1_BP2_CYFIP_DUP,duplication,UKBB,yes,positive,0.0845129,0.0264487,0.0014,NA
+15q11.2q12_BP1_BP4_DEL,deletion,UKBB,no,no effect,NA,NA,NA,NA
+15q11.2q12_BP1_BP4_DUP,duplication,UKBB,no,suggestive positive,0.5272072,0.2670302,0.0483,NA
+15q13.1q13.2_DEL,deletion,UKBB,no,suggestive positive,0.5105788,0.2770974,0.0654,NA
+15q13.1q13.2_DUP,duplication,UKBB,no,no effect,-0.2268249,0.1335221,0.0894,NA
+15q13.1q13.3_DEL,deletion,UKBB,no,suggestive positive,0.879868,0.3776166,0.0198,NA
+15q13.1q13.3_DUP,duplication,UKBB,no,no effect,0.2262088,0.1888207,0.2309,NA
+15q13.3_inclCHRNA7_DEL,deletion,UKBB,yes,positive,0.5220198,0.1688849,0.002,NA
+15q13.3_inclCHRNA7_DUP,duplication,UKBB,yes,no effect,0.1364702,0.0719433,0.0578,NA
+16p11.2_distal_DEL,deletion,UKBB,no,positive,0.826155,0.1489396,2.91E-08,NA
+16p11.2_distal_DUP,duplication,UKBB,yes,negative,-0.2779627,0.098939,0.00496,NA
+16p11.2_proximal_DEL,deletion,UKBB,yes,positive,1.2176793,0.104727,2.00E-16,NA
+16p11.2_proximal_DUP,duplication,UKBB,yes,negative,-0.2860573,0.0923617,0.00195,NA
+16p12.1_BP1_BP2_DEL,deletion,UKBB,yes,negative,-0.0905589,0.0387062,0.0193,NA
+16p12.1_BP1_BP2_DUP,duplication,UKBB,yes,positive,0.3111337,0.122076,0.0108,NA
+16p12.1_BP2_BP3_DEL,deletion,UKBB,yes,positive,0.2959303,0.0689698,1.78E-05,NA
+16p12.1_BP2_BP3_DUP,duplication,UKBB,yes,no effect,-0.1013297,0.0782801,0.1955,NA
+16p13.11_BP1_BP2_DEL,deletion,UKBB,yes,no effect,0.0489572,0.1014581,0.629425,NA
+16p13.11_BP1_BP2_DUP,duplication,UKBB,yes,positive,0.1580149,0.043899,0.000319,NA
+16p13.11_BP1_BP3_DEL,deletion,UKBB,no,no effect,0.1341438,0.3012526,0.6561,NA
+16p13.11_BP1_BP3_DUP,duplication,UKBB,yes,suggestive positive,0.1871068,0.0847634,0.0273,NA
+16p13.11_BP2_BP3_DEL,deletion,UKBB,no,no effect,-0.9872383,0.706461,0.1623,NA
+16p13.11_BP2_BP3_DUP,duplication,UKBB,no,no effect,-0.384183,0.4078725,0.3462,NA
+17p11.2_DEL,deletion,UKBB,no,no effect,-0.2794011,0.9990759,0.7797,NA
+17p11.2_DUP,duplication,UKBB,no,no effect,0.1147759,0.7064539,0.8709,NA
+17p12_DEL,deletion,UKBB,yes,negative,-0.0430712,0.0727001,0.5535,NA
+17p12_DUP,duplication,UKBB,yes,no effect,0.0433574,0.0989451,0.6612,NA
+17q11.2_NF1_DEL,deletion,UKBB,no,no effect,-0.0581772,0.377622,0.8776,NA
+17q11.2_NF1_DUP,duplication,UKBB,no,no effect,NA,NA,NA,NA
+17q12_DEL,deletion,UKBB,no,no effect,-0.1685267,0.3532302,0.6333,NA
+17q12_DUP,duplication,UKBB,yes,positive,0.2184084,0.107134,0.0415,NA
+1q21.1_DEL,deletion,UKBB,yes,no effect,0.0612649,0.1053312,0.56081,NA
+1q21.1_DUP,duplication,UKBB,yes,suggestive positive,0.2312664,0.0764277,0.00248,NA
+1q21.1_TAR_BP1_BP2_DEL,deletion,UKBB,yes,no effect,-0.0928192,0.0782784,0.2357,NA
+1q21.1_TAR_BP1_BP2_DUP,duplication,UKBB,yes,no effect,0.2970255,0.2130139,0.1632,NA
+1q21.1_TAR_BP1_BP3_DEL,deletion,UKBB,no,no effect,0.0683379,0.1177625,0.5617,NA
+1q21.1_TAR_BP1_BP3_DUP,duplication,UKBB,yes,suggestive positive,0.0815527,0.0609474,0.1809,NA
+1q21.1_TAR_BP2_BP3_DEL,deletion,UKBB,no,no effect,-0.414679,0.9990909,0.6781,NA
+1q21.1_TAR_BP2_BP3_DUP,duplication,UKBB,yes,no effect,0.1862764,0.1096807,0.0894,NA
+22q11.2_BP1_BP2_A_B_DEL,deletion,UKBB,no,no effect,0.5283389,0.4468092,0.237,NA
+22q11.2_BP1_BP2_A_B_DUP,duplication,UKBB,yes,no effect,0.0861108,0.1922816,0.6543,NA
+22q11.2_BP1_BP4_A_D_DEL,deletion,UKBB,no,no effect,0.8205228,0.4467974,0.0663,NA
+22q11.2_BP1_BP4_A_D_DUP,duplication,UKBB,yes,positive,0.3802808,0.0689671,3.51E-08,NA
+22q11.2_BP2_BP3_B_C_DEL,deletion,UKBB,no,no effect,-0.13425,0.3159403,0.6709,NA
+22q11.2_BP2_BP3_B_C_DUP,duplication,UKBB,no,no effect,0.2456546,0.101987,0.016,NA
+22q11.2_BP2_BP4_B_D_DEL,deletion,UKBB,no,suggestive negative,-0.1342604,0.3159404,0.6709,NA
+22q11.2_BP2_BP4_B_D_DUP,duplication,UKBB,yes,suggestive positive,0.2642164,0.1110264,0.0173,NA
+22q11.2_BP3_BP4_C_D_DEL,deletion,UKBB,no,suggestive negative,-0.0755391,0.1922818,0.6944,NA
+22q11.2_BP3_BP4_C_D_DUP,duplication,UKBB,yes,no effect,0.1966867,0.0792559,0.0131,NA
+22q11.2_BP4_BP5_D_E_DEL,deletion,UKBB,no,no effect,-0.0304951,0.3776312,0.9356,NA
+22q11.2_BP4_BP5_D_E_DUP,duplication,UKBB,no,no effect,0.2385143,0.277101,0.3894,NA
+22q11.2_BP5_BP6_E_F_DEL,deletion,UKBB,no,positive,0.5534735,0.1739262,0.00146,NA
+22q11.2_BP5_BP6_E_F_DUP,duplication,UKBB,no,no effect,-0.1812383,0.111023,0.10259,NA
+22q11.2_BP6_BP7_F_G_DEL,deletion,UKBB,no,no effect,1.5197005,0.9990864,0.1282,NA
+22q11.2_BP6_BP7_F_G_DUP,duplication,UKBB,no,no effect,0.0682561,0.2292114,0.7659,NA
+22q11.2_BP6_BP8_F_H_DEL,deletion,UKBB,no,no effect,-0.5878161,0.9990891,0.5563,NA
+22q11.2_BP6_BP8_F_H_DUP,duplication,UKBB,yes,no effect,0.0117119,0.0787645,0.8818,NA
+22q11.2_BP7_BP8_G_H_DEL,deletion,UKBB,no,no effect,NA,NA,NA,NA
+22q11.2_BP7_BP8_G_H_DUP,duplication,UKBB,no,no effect,-0.1864485,0.4078753,0.6476,NA
+22q13_DEL,deletion,UKBB,yes,negative,-0.0536323,0.1335227,0.6879,NA
+22q13_DUP,duplication,UKBB,no,no effect,0.3092825,0.5768185,0.5918,NA
+2q11.2_DEL,deletion,UKBB,no,positive,0.6128636,0.2039427,0.00266,NA
+2q11.2_DUP,duplication,UKBB,no,suggestive negative,-0.3030925,0.2083274,0.1457,NA
+2q13_DEL,deletion,UKBB,no,suggestive positive,0.4747746,0.1473164,0.00127,NA
+2q13_DUP,duplication,UKBB,no,suggestive negative,-0.305523,0.1268978,0.01606,NA
+2q13_NPHP1_DEL,deletion,UKBB,yes,no effect,0.0100752,0.022384,0.6526,NA
+2q13_NPHP1_DUP,duplication,UKBB,yes,no effect,-0.0024949,0.0357146,0.9443,NA
+2q21.1_DEL,deletion,UKBB,no,no effect,0.0508029,0.1688891,0.7636,NA
+2q21.1_DUP,duplication,UKBB,no,no effect,-0.0637003,0.1413065,0.6521,NA
+3q29_DEL,deletion,UKBB,no,no effect,0.0161998,0.3330304,0.9612,NA
+3q29_DUP,duplication,UKBB,no,suggestive positive,0.9272633,0.5768148,0.1079,NA
+7q11.23_distal_DEL,deletion,UKBB,no,suggestive positive,NA,NA,NA,NA
+7q11.23_distal_DUP,duplication,UKBB,no,no effect,0.260101,0.2354992,0.2694,NA
+7q11.23_WBS_DEL,deletion,UKBB,no,no effect,NA,NA,NA,NA
+7q11.23_WBS_DUP,duplication,UKBB,no,no effect,0.3823309,0.277101,0.1677,NA
+9q34_DEL,deletion,UKBB,no,no effect,0.9083218,0.9990693,0.3633,NA
+9q34_DUP,duplication,UKBB,no,suggestive positive,0.3754092,0.2292129,0.1015,NA
+NRXN1_DEL,deletion,UKBB,no,positive,0.3287053,0.0952771,0.000561,NA
+10q11.21q11.23_DEL,deletion,Meta-analysis,no,no effect,0.040904465,0.087891512,0.641647025,0.465489796
+10q11.21q11.23_DUP,duplication,Meta-analysis,no,no effect,-0.136622907,0.125727121,0.277186135,0.22028096
+10q22q23_DEL,deletion,Meta-analysis,no,no effect,0.22491344,0.576058429,0.696214825,0.973117556
+10q22q23_DUP,duplication,Meta-analysis,no,no effect,-0.140923884,0.195695441,0.47145211,0.067966952
+13q12.12_DEL,deletion,Meta-analysis,no,no effect,-0.047195757,0.067293243,0.483087951,0.319825323
+13q12.12_DUP,duplication,Meta-analysis,yes,no effect,-0.05687762,0.084718618,0.501984235,0.04424007
+15q11.2__BP1_BP2_CYFIP_DEL,deletion,Meta-analysis,yes,positive,0.101843636,0.015253181,2.44E-11,0.112978165
+15q11.2__BP1_BP2_CYFIP_DUP,duplication,Meta-analysis,yes,positive,0.05013578,0.013854796,0.000296134,0.095009924
+15q11.2q12_BP1_BP4_DEL,deletion,Meta-analysis,no,no effect,0.083716645,0.498486944,0.866629302,1
+15q11.2q12_BP1_BP4_DUP,duplication,Meta-analysis,no,suggestive positive,0.413099395,0.125747177,0.001019251,0.105394481
+15q13.1q13.2_DEL,deletion,Meta-analysis,no,suggestive positive,0.190100545,0.096904356,0.049793491,0.252102774
+15q13.1q13.2_DUP,duplication,Meta-analysis,no,no effect,-0.165258754,0.084669586,0.050961034,0.729399624
+15q13.1q13.3_DEL,deletion,Meta-analysis,no,suggestive positive,0.598648566,0.21290612,0.004926575,0.464424312
+15q13.1q13.3_DUP,duplication,Meta-analysis,no,no effect,-0.009477936,0.078429543,0.903812616,0.575750661
+15q13.3_inclCHRNA7_DEL,deletion,Meta-analysis,yes,positive,0.42746651,0.108638013,8.33E-05,0.034650673
+15q13.3_inclCHRNA7_DUP,duplication,Meta-analysis,yes,no effect,0.028327175,0.035987626,0.43120195,0.190955595
+16p11.2_distal_DEL,deletion,Meta-analysis,no,positive,0.690721749,0.142935599,1.35E-06,0.012369753
+16p11.2_distal_DUP,duplication,Meta-analysis,yes,negative,-0.456336467,0.047651985,1.00E-21,0.163287907
+16p11.2_proximal_DEL,deletion,Meta-analysis,yes,positive,0.985386719,0.149041374,3.80E-11,4.80E-05
+16p11.2_proximal_DUP,duplication,Meta-analysis,yes,negative,-0.397139273,0.038660312,9.37E-25,0.271107273
+16p12.1_BP1_BP2_DEL,deletion,Meta-analysis,yes,negative,-0.099453337,0.021307634,3.05E-06,0.483545754
+16p12.1_BP1_BP2_DUP,duplication,Meta-analysis,yes,positive,0.22734135,0.04907246,3.61E-06,0.260885453
+16p12.1_BP2_BP3_DEL,deletion,Meta-analysis,yes,positive,0.221393626,0.062950494,0.000436539,0.047859699
+16p12.1_BP2_BP3_DUP,duplication,Meta-analysis,yes,no effect,-0.002054524,0.049376613,0.966810197,0.117791404
+16p13.11_BP1_BP2_DEL,deletion,Meta-analysis,yes,no effect,-0.06924073,0.050344627,0.169027596,0.085012818
+16p13.11_BP1_BP2_DUP,duplication,Meta-analysis,yes,positive,0.100762466,0.023873083,2.43E-05,0.228467382
+16p13.11_BP1_BP3_DEL,deletion,Meta-analysis,no,no effect,-0.018723506,0.095171284,0.844035057,0.167091468
+16p13.11_BP1_BP3_DUP,duplication,Meta-analysis,yes,suggestive positive,0.134660244,0.043346423,0.001892486,0.685812211
+16p13.11_BP2_BP3_DEL,deletion,Meta-analysis,no,no effect,0.115702394,0.300214707,0.699941958,0.084582197
+16p13.11_BP2_BP3_DUP,duplication,Meta-analysis,no,no effect,0.150925779,0.176229185,0.391766821,0.322183949
+17p11.2_DEL,deletion,Meta-analysis,no,no effect,0.437700115,0.314962018,0.164622505,0.476025016
+17p11.2_DUP,duplication,Meta-analysis,no,no effect,0.164914701,0.331967171,0.619344093,0.935917222
+17p12_DEL,deletion,Meta-analysis,yes,negative,-0.164273507,0.044169061,0.000199856,0.153876232
+17p12_DUP,duplication,Meta-analysis,yes,no effect,0.012695939,0.05716407,0.824238778,0.573336741
+17q11.2_NF1_DEL,deletion,Meta-analysis,no,no effect,-0.187230434,0.195814779,0.338990953,0.921657571
+17q11.2_NF1_DUP,duplication,Meta-analysis,no,no effect,-0.516830057,0.26664287,0.052588378,0.911718136
+17q12_DEL,deletion,Meta-analysis,no,no effect,-0.20571942,0.157747186,0.192196646,0.114993613
+17q12_DUP,duplication,Meta-analysis,yes,positive,0.425596411,0.042541196,1.46E-23,0.11558065
+1q21.1_DEL,deletion,Meta-analysis,yes,no effect,0.086320445,0.0668487,0.196606316,0.245607034
+1q21.1_DUP,duplication,Meta-analysis,yes,suggestive positive,0.152086546,0.048205323,0.001605123,0.413582174
+1q21.1_TAR_BP1_BP2_DEL,deletion,Meta-analysis,yes,no effect,-0.001896811,0.042420187,0.964334616,0.447150686
+1q21.1_TAR_BP1_BP2_DUP,duplication,Meta-analysis,yes,no effect,0.051120386,0.029154903,0.07953232,0.505523354
+1q21.1_TAR_BP1_BP3_DEL,deletion,Meta-analysis,no,no effect,0.139536629,0.072436102,0.054061816,0.848837577
+1q21.1_TAR_BP1_BP3_DUP,duplication,Meta-analysis,yes,suggestive positive,0.065712169,0.031076516,0.034470177,0.430387982
+1q21.1_TAR_BP2_BP3_DEL,deletion,Meta-analysis,no,no effect,0.163558297,0.093475222,0.080161411,0.93898401
+1q21.1_TAR_BP2_BP3_DUP,duplication,Meta-analysis,yes,no effect,0.059136204,0.035852087,0.099055595,0.400119853
+22q11.2_BP1_BP2_A_B_DEL,deletion,Meta-analysis,no,no effect,0.063154158,0.132219164,0.632901092,0.492285336
+22q11.2_BP1_BP2_A_B_DUP,duplication,Meta-analysis,yes,no effect,0.119423639,0.097349664,0.219916804,0.027115532
+22q11.2_BP1_BP4_A_D_DEL,deletion,Meta-analysis,no,no effect,0.10313714,0.110137483,0.349046712,0.172222546
+22q11.2_BP1_BP4_A_D_DUP,duplication,Meta-analysis,yes,positive,0.258426358,0.07259034,0.000370762,0.001802815
+22q11.2_BP2_BP3_B_C_DEL,deletion,Meta-analysis,no,no effect,-0.13425,0.3159403,0.6708935,1
+22q11.2_BP2_BP3_B_C_DUP,duplication,Meta-analysis,no,no effect,0.161339141,0.093985028,0.086043641,0.074447041
+22q11.2_BP2_BP4_B_D_DEL,deletion,Meta-analysis,no,suggestive negative,-0.324279877,0.103472698,0.001724611,0.606506923
+22q11.2_BP2_BP4_B_D_DUP,duplication,Meta-analysis,yes,suggestive positive,0.279346557,0.120218107,0.020143478,0.033938368
+22q11.2_BP3_BP4_C_D_DEL,deletion,Meta-analysis,no,suggestive negative,-0.278693048,0.108907122,0.010497451,0.54441032
+22q11.2_BP3_BP4_C_D_DUP,duplication,Meta-analysis,yes,no effect,0.078262421,0.053063528,0.14024438,0.180985397
+22q11.2_BP4_BP5_D_E_DEL,deletion,Meta-analysis,no,no effect,-0.304623261,0.235424907,0.195689731,0.353190142
+22q11.2_BP4_BP5_D_E_DUP,duplication,Meta-analysis,no,no effect,0.218920648,0.171215842,0.201029568,0.894246966
+22q11.2_BP5_BP6_E_F_DEL,deletion,Meta-analysis,no,positive,0.352312226,0.077934639,6.17E-06,0.460277742
+22q11.2_BP5_BP6_E_F_DUP,duplication,Meta-analysis,no,no effect,-0.121855779,0.076789123,0.112537891,0.340441214
+22q11.2_BP6_BP7_F_G_DEL,deletion,Meta-analysis,no,no effect,0.317888849,0.445335422,0.475339161,0.179015572
+22q11.2_BP6_BP7_F_G_DUP,duplication,Meta-analysis,no,no effect,-0.044785014,0.110072214,0.684103925,0.659251234
+22q11.2_BP6_BP8_F_H_DEL,deletion,Meta-analysis,no,no effect,-0.383568365,0.445319809,0.389055014,0.81935506
+22q11.2_BP6_BP8_F_H_DUP,duplication,Meta-analysis,yes,no effect,0.072629283,0.05399385,0.178580052,0.057001042
+22q11.2_BP7_BP8_G_H_DEL,deletion,Meta-analysis,no,no effect,0.1601611,0.2999985,0.593429402,1
+22q11.2_BP7_BP8_G_H_DUP,duplication,Meta-analysis,no,no effect,-0.079737176,0.352864722,0.821224015,0.601922359
+22q13_DEL,deletion,Meta-analysis,yes,negative,-0.170205446,0.043618786,9.54E-05,0.355622447
+22q13_DUP,duplication,Meta-analysis,no,no effect,0.323888621,0.499007584,0.516296023,0.959737641
+2q11.2_DEL,deletion,Meta-analysis,no,positive,0.334675986,0.094719514,0.000410349,0.144670619
+2q11.2_DUP,duplication,Meta-analysis,no,suggestive negative,-0.298345641,0.115266255,0.00964461,0.393204511
+2q13_DEL,deletion,Meta-analysis,no,suggestive positive,0.324285806,0.112275571,0.003873272,0.264343379
+2q13_DUP,duplication,Meta-analysis,no,suggestive negative,-0.340915261,0.122049845,0.005218196,0.308313468
+2q13_NPHP1_DEL,deletion,Meta-analysis,yes,no effect,0.024902724,0.013884754,0.072888208,0.826141911
+2q13_NPHP1_DUP,duplication,Meta-analysis,yes,no effect,-0.004822282,0.018467853,0.794001786,0.097392874
+2q21.1_DEL,deletion,Meta-analysis,no,no effect,-0.101122568,0.093085055,0.277325986,0.555692238
+2q21.1_DUP,duplication,Meta-analysis,no,no effect,0.051047783,0.069542943,0.462920145,0.775363906
+3q29_DEL,deletion,Meta-analysis,no,no effect,-0.235971677,0.179216843,0.18794508,0.770359038
+3q29_DUP,duplication,Meta-analysis,no,suggestive positive,0.501798686,0.185346171,0.00678208,0.647023113
+7q11.23_distal_DEL,deletion,Meta-analysis,no,suggestive positive,1.2320579,0.3760869,0.001052913,1
+7q11.23_distal_DUP,duplication,Meta-analysis,no,no effect,9.90E-05,0.144086682,0.999451655,0.468549381
+7q11.23_WBS_DEL,deletion,Meta-analysis,no,no effect,-0.010244111,0.276169193,0.970410372,0.666806294
+7q11.23_WBS_DUP,duplication,Meta-analysis,no,no effect,-0.062585366,0.117591398,0.594568496,0.25013025
+9q34_DEL,deletion,Meta-analysis,no,no effect,0.135463347,0.217176872,0.532793979,0.428051703
+9q34_DUP,duplication,Meta-analysis,no,suggestive positive,0.38568176,0.176569786,0.028940054,0.959826642
+NRXN1_DEL,deletion,Meta-analysis,no,positive,0.3287053,0.0952771,0.000560602,1
