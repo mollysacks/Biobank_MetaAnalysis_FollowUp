@@ -33,7 +33,9 @@ For example, in my genotype matrix, sex was in the column `my_genomatrix$sex_fam
 
 ### 8. Run Height/Height_FollowUpAnalyses_09182023.R and /BMI/BMI_FollowUpAnalyses_09182023.R
 After editing section 0 to properly read in your data, the rest of the script should run without any additional user input.
-Output will be written to the `Height/output` and `BMI/output` directories
+Output will be written to the `Height/output` and `BMI/output` directories.
+For UKBB (~250000 subjects), these scripts each less than 5 minutes to run on my laptop. 
 
 ### 9. Send `Height/output` and `BMI/output` to msacks@ucsd.edu and jsebat@health.ucsd.edu
+For any troubleshooting, feel free to email msacks@ucsd.edu. Thank you for your cooperation!
 
