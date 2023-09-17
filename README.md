@@ -1,13 +1,8 @@
-# README.md
-
 This repository contains code to perform follow-up analyses for our Biobank Meta-analysis of BMI and Height.
 
+# Instructions
 
-## Instructions
-
-### 1. Clone this directory to a working directory
-`cd your_working_directory`
-`git clone 
+### 1. Download this repo by clicking Code > Download .zip
 
 ### 2. Calculate by-chromosome polygenic risk scores for BMI and Height
 The script `calculate_PRS_by_chromosome.sh` is provided for you to calculate by chromosome polygenic risk scores. 
@@ -16,11 +11,29 @@ Edit the script as needed and run on your data.
 Required input:
 - PRS-CS sumstats for BMI (Yengo et al) and Height
 - PLINK fileset (.bed, .bim, .fam). This script will run faster if these are split by chromosome, but can also be run on the whole genome
-### 3. Copy by chromosome PRSs for BMI to your_working_directory/Biobank_MetaAnalysis_FollowUp/BMI/PRS_BMI_by_chromosome
+### 3. Copy by chromosome PRSs for BMI to `BMI/PRS_BMI_by_chromosome`
+There should be 22 files
+### 4. Copy by chromosome PRSs for Height to `Height/PRS_HEIGHT_by_chromosome`
+There should be 22 files
+### 5. Upload genotype matrices to `BMI/` and `Height/`
+The genotype matrices used to calculate CNVxPRS interaction effect for both Height and BMI should be sufficient here. These files should contain the columns:
+- res_bmi_inv (or res_height_inv)
+- sex, coded as 1 for male 2 for female
+- `age` in years
+- Ancestry PCs 1-10
+- CNV genotypes for each of the testable CNVs (coded as 1 for del, 2 for no CNV, and 3 for dup)
+- PRS-BMI zscore (or PRS-Height zscore)
 
-### 4. Copy by chromosome PRSs for Height to your_working_directory/Biobank_MetaAnalysis_FollowUp/Height/PRS_HEIGHT_by_chromosome
+### 6. Add psychiatric medication information to BMI folder
+This file should be a .csv mapping sampleID to medication, where medication = 1 if the individual is taking one of the medications in `medication_list.txt`, 0 otherwise.
 
-### 4. Upload genotype matrices to BMI and Height folder
+### 7. Edit section 0 of Height/Height_FollowUpAnalyses_09182023.R and /BMI/BMI_FollowUpAnalyses_09182023.R
+This section reads in your data and compiles it into a genotype matrix so that the statistical tests can be run automatically. 
+For example, in my genotype matrix, sex was in the column `my_genomatrix$sex_famfile_2022`. This script creates a new genotype matrix where the sex column is called `genomatrix$sex`. 
 
+### 8. Run Height/Height_FollowUpAnalyses_09182023.R and /BMI/BMI_FollowUpAnalyses_09182023.R
+After editing section 0 to properly read in your data, the rest of the script should run without any additional user input.
+Output will be written to the `Height/output` and `BMI/output` directories
 
-### 5. Run follow-up analyses for Height
+### 9. Send `Height/output` and `BMI/output` to msacks@ucsd.edu and jsebat@health.ucsd.edu
+
