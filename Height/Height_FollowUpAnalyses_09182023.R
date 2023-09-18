@@ -313,6 +313,9 @@ model_linear <- lm(res_height_inv ~ PRS_HEIGHT_zscore + age + sex + PC1 + PC2 + 
 results_linear <- data.frame(summary(model_linear)$coefficients)
 write.csv(results_quadratic, 'output/3_PRS_quadratic/PRS_linear.csv')
 
+anova <- anova(model_linear, model_quadratic)
+write.csv(anova, 'output/3_PRS_quadratic/ANOVA.csv')
+
 ###--------------------------------------------###
 ###  4. PRS odd/even                           ### 
 ###--------------------------------------------###

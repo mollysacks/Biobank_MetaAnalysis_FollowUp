@@ -24,18 +24,15 @@ The genotype matrices used to calculate CNVxPRS interaction effect for both Heig
 - CNV genotypes for each of the testable CNVs (coded as 1 for del, 2 for no CNV, and 3 for dup)
 - PRS-BMI zscore (or PRS-Height zscore)
 
-### 6. Add psychiatric medication information to BMI folder
-This file should be a .csv mapping sampleID to medication, where medication = 1 if the individual is taking one of the medications in `medication_list.txt`, 0 otherwise.
-
-### 7. Edit section 0 of Height/Height_FollowUpAnalyses_09182023.R and /BMI/BMI_FollowUpAnalyses_09182023.R
+### 6. Edit section 0 of Height/Height_FollowUpAnalyses_09182023.R and /BMI/BMI_FollowUpAnalyses_09182023.R
 This section reads in your data and compiles it into a genotype matrix so that the statistical tests can be run automatically. 
 For example, in my genotype matrix, sex was in the column `my_genomatrix$sex_famfile_2022`. This script creates a new genotype matrix where the sex column is called `genomatrix$sex`. 
 
-### 8. Run Height/Height_FollowUpAnalyses_09182023.R and /BMI/BMI_FollowUpAnalyses_09182023.R
+### 7. Run Height/Height_FollowUpAnalyses_09182023.R and /BMI/BMI_FollowUpAnalyses_09182023.R
 After editing section 0 to properly read in your data, the rest of the script should run without any additional user input.
 Output will be written to the `Height/output` and `BMI/output` directories.
 For UKBB (~250000 subjects), these scripts each took less than 5 minutes to run on my laptop. 
 
-### 9. Send `Height/output` and `BMI/output` to msacks@ucsd.edu and jsebat@health.ucsd.edu
+### 8. Send `Height/output` and `BMI/output` to msacks@ucsd.edu and jsebat@health.ucsd.edu
 For any troubleshooting, feel free to email msacks@ucsd.edu. Thank you for your cooperation!
 

@@ -15,7 +15,7 @@ module load gcc/10.2.0
 module load plink
 
 mkdir /your/output/directory
-mkdir /your/sumstats/directory/by_chr
+mkdir /your/output/directory/sumstats_by_chr
 
 # for each set of sumstats
 for sumstats in /your/sumstats/directory/*; do
@@ -23,7 +23,7 @@ for sumstats in /your/sumstats/directory/*; do
   # for each chromosome
   for i in {1..22}; do
     # Create sumstats for chromosome i
-    sumstats_bychr="/your/sumstats/directory/by_chr/${filename}.chr${i}.txt"
+    sumstats_bychr="/your/output/directory/sumstats_by_chr/${filename}.chr${i}.txt"
     grep "^${i}" "${sumstats}" > "${sumstats_bychr}"
 
     # calculate PRS for chromosome i (if your bed files aren't split by chromosome that's ok)
