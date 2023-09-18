@@ -23,6 +23,7 @@ The genotype matrices used to calculate CNVxPRS interaction effect for both Heig
 - Ancestry PCs 1-10
 - CNV genotypes for each of the testable CNVs (coded as 1 for del, 2 for no CNV, and 3 for dup)
 - PRS-BMI zscore (or PRS-Height zscore)
+Column names aren't important here as long as all the data is present. We will edit those in step 6!
 
 ### 6. Edit section 0 of Height/Height_FollowUpAnalyses_09182023.R and /BMI/BMI_FollowUpAnalyses_09182023.R
 This section reads in your data and compiles it into a genotype matrix so that the statistical tests can be run automatically. 
