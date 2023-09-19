@@ -1,0 +1,3 @@
+"","group","CNV_groupxMedication_estimate","CNV_groupxMedication_se","CNV_groupxMedication_ci_lower","CNV_groupxMedication_ci_upper","CNV_groupxMedication_z","CNV_groupxMedication_p"
+"1","negative","-0.191967013375004","0.120155827825431","-0.427472435912849","0.0435384091628404","-1.5976504581526","0.110153867320519"
+"2","positive","0.097305220074886","0.0825066143609938","-0.0644077440726618","0.259018184222434","1.17936265872144","0.238283170859707"

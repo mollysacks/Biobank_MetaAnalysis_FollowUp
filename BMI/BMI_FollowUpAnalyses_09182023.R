@@ -68,7 +68,7 @@ library(purrr)
 ####  Set working directory to this directory
 
 # Fill in path to this directory
-setwd('/path/to/Biobank_MetaAnalysis_FollowUp/BMI') 
+setwd('~/sebatlab Dropbox/G2MH/NetworkPaper/AnalysisByMolly/UKBB/BMI') 
 dir.create('output')
 
 #### Read in CNV main effects
@@ -78,7 +78,7 @@ testable <- main_effects[which((main_effects$cohort == 'Meta-analysis') & (main_
 #### Read in your genomatrix
 
 ## Read in your genomatrix (fill in path to your genomatrix)
-my_genomatrix <- read.csv('/path/to/your_BMI_genomatrix.csv')
+my_genomatrix <- read.csv('UKBB_BMI_PRS-CS_20230824.csv')
 
 ## initialize blank genomatrix for this script
 genomatrix <- data.frame(matrix(nrow=nrow(my_genomatrix), ncol=0))
@@ -131,7 +131,7 @@ genomatrix$locus_2q13_NPHP1 <- my_genomatrix$locus_2q13_NPHP1_allele_specific
 # Read in by chromosome PLINK output
 # sampleIDs should match sampleIDs in genomatrix
 
-prefix <- 'PRS_BMI_by_chromosome/your_dataset_bmi_locke_pst_eff_a1_b0.5_phi1e-02.txt.chr'
+prefix <- 'PRS_BMI_by_chromosome/UKBB_bmi_locke_pst_eff_a1_b0.5_phi1e-02.txt.chr'
 suffix <- '.sscore'
 names <- c('FID', 'IID', 'ALLELE_CT', 'NAMED_ALLELE_DOSAGE_SUM', 'SCORE1_AVG', 'SCORE1_SUM')
 
@@ -146,6 +146,9 @@ for(i in 1:22){
   # add to genomatrix
   genomatrix[,paste('chr', as.character(i), 'PRS_BMI', sep='')] <- PRS_i$SCORE1_SUM
 }
+
+# Add medication information (if applicable)
+genomatrix$medication <- my_genomatrix$medication # add medication column
 
 # Additional QC (for UKBB, there were some PRS outliers, so we filter those out)
 genomatrix <- genomatrix[which((genomatrix$PRS_BMI_zscore > -3) & (genomatrix$PRS_BMI_zscore < 3)),] # 
@@ -322,9 +325,6 @@ model_linear <- lm(res_bmi_inv ~ PRS_BMI_zscore + age + sex + PC1 + PC2 + PC3 + 
 
 results_linear <- data.frame(summary(model_linear)$coefficients)
 write.csv(results_quadratic, 'output/3_PRS_quadratic/PRS_linear.csv')
-
-anova <- anova(model_linear, model_quadratic)
-write.csv(anova, 'output/3_PRS_quadratic/ANOVA.csv')
 
 ###--------------------------------------------###
 ###  4. PRS odd/even                           ### 
@@ -746,3 +746,160 @@ model_female <- lm(res_bmi_inv ~ group + age + PC1 + PC2 + PC3 + PC4 +
                  data = genomatrix_female, na.action=na.exclude)
 res <- summary(model_female)$coefficients
 write.csv(res, 'output/15_CNVgroup_by_Sex/CNVgroup_by_Sex_female.csv')
+
+###--------------------------------------------###
+###  16. Medication x CNV group interaction    ### 
+###--------------------------------------------###
+
+if(length(table(genomatrix$medication)) < 2){
+  stop("Analysis finished (not testing GeneXDrug)")
+}
+
+dir.create('output/16_CNVgroupxMedication')
+
+out <- data.frame(matrix(nrow=0, ncol=7))
+
+model <- lm(res_bmi_inv ~ group*medication + sex + age + PC1 + PC2 + PC3 + PC4 + 
+              PC5 + PC6 + PC7 + PC8 + PC9 + PC10, 
+            data = genomatrix, na.action=na.exclude)
+res <- summary(model)$coefficients
+
+estimate <- as.numeric(res['groupnegative:medication', 1])
+se <- as.numeric(res['groupnegative:medication', 2])
+ci_lower <-estimate - (1.96*se)
+ci_upper <- estimate + (1.96*se)
+z <- as.numeric(res['groupnegative:medication', 3])
+p <- as.numeric(res['groupnegative:medication', 4])
+out[nrow(out) + 1,] <- c('negative', estimate, se, ci_lower, ci_upper, z, p)
+
+estimate <- as.numeric(res['grouppositive:medication', 1])
+se <- as.numeric(res['grouppositive:medication', 2])
+ci_lower <-estimate - (1.96*se)
+ci_upper <- estimate + (1.96*se)
+z <- as.numeric(res['grouppositive:medication', 3])
+p <- as.numeric(res['grouppositive:medication', 4])
+out[nrow(out) + 1,] <- c('positive', estimate, se, ci_lower, ci_upper, z, p)
+
+
+
+colnames(out) <- c('group', 'CNV_groupxMedication_estimate', 'CNV_groupxMedication_se', 'CNV_groupxMedication_ci_lower', 'CNV_groupxMedication_ci_upper', 'CNV_groupxMedication_z', 'CNV_groupxMedication_p')
+write.csv(out, 'output/16_CNVgroupxMedication/CNVgroupxMedication.csv')
+
+
+###--------------------------------------------###
+###  17. Medication x PRS interaction          ### 
+###--------------------------------------------###
+
+dir.create('output/17_PRSxMedication')
+
+model <- lm(res_bmi_inv ~ 
+              PRS_BMI_zscore*medication +
+              age + PC1 + PC2 + PC3 + PC4 + PC5 + PC6 + PC7 + PC8 + PC9 + PC10, 
+            data = genomatrix, na.action=na.exclude)
+
+results <- data.frame(summary(model)$coefficients)
+write.csv(results, 'output/17_PRSxMedication/PRSxMedication.csv')
+
+
+###--------------------------------------------###
+###  18. Medication effect by CNV group        ### 
+###--------------------------------------------###
+
+dir.create('output/18_Medication_by_CNVgroup')
+
+out <- data.frame(matrix(nrow=0, ncol=7))
+
+model <- lm(res_bmi_inv ~ medication + age + sex + PC1 + PC2 + PC3 + PC4 + 
+              PC5 + PC6 + PC7 + PC8 + PC9 + PC10, 
+            data = genomatrix_no_CNV, na.action=na.exclude)
+res <- summary(model)$coefficients
+estimate <- as.numeric(res['medication', 1])
+se <- as.numeric(res['medication', 2])
+ci_lower <-estimate - (1.96*se)
+ci_upper <- estimate + (1.96*se)
+z <- as.numeric(res['medication', 3])
+p <- as.numeric(res['medication', 4])
+out[nrow(out) + 1,] <- c('No CNV', estimate, se, ci_lower, ci_upper, z, p)
+
+model <- lm(res_bmi_inv ~ medication + age + sex + PC1 + PC2 + PC3 + PC4 + 
+              PC5 + PC6 + PC7 + PC8 + PC9 + PC10, 
+            data = genomatrix_neg, na.action=na.exclude)
+res <- summary(model)$coefficients
+estimate <- as.numeric(res['medication', 1])
+se <- as.numeric(res['medication', 2])
+ci_lower <-estimate - (1.96*se)
+ci_upper <- estimate + (1.96*se)
+z <- as.numeric(res['medication', 3])
+p <- as.numeric(res['medication', 4])
+out[nrow(out) + 1,] <- c('Negative', estimate, se, ci_lower, ci_upper, z, p)
+
+model <- lm(res_bmi_inv ~ medication + age + sex + PC1 + PC2 + PC3 + PC4 + 
+              PC5 + PC6 + PC7 + PC8 + PC9 + PC10, 
+            data = genomatrix_no_effect, na.action=na.exclude)
+res <- summary(model)$coefficients
+estimate <- as.numeric(res['medication', 1])
+se <- as.numeric(res['medication', 2])
+ci_lower <-estimate - (1.96*se)
+ci_upper <- estimate + (1.96*se)
+z <- as.numeric(res['medication', 3])
+p <- as.numeric(res['medication', 4])
+out[nrow(out) + 1,] <- c('No effect', estimate, se, ci_lower, ci_upper, z, p)
+
+model <- lm(res_bmi_inv ~ medication + age + sex + PC1 + PC2 + PC3 + PC4 + 
+              PC5 + PC6 + PC7 + PC8 + PC9 + PC10, 
+            data = genomatrix_positive, na.action=na.exclude)
+res <- summary(model)$coefficients
+estimate <- as.numeric(res['medication', 1])
+se <- as.numeric(res['medication', 2])
+ci_lower <-estimate - (1.96*se)
+ci_upper <- estimate + (1.96*se)
+z <- as.numeric(res['medication', 3])
+p <- as.numeric(res['medication', 4])
+out[nrow(out) + 1,] <- c('Positive', estimate, se, ci_lower, ci_upper, z, p)
+
+
+colnames(out) <- c('CNV_group', 'estimate', 'se', 'ci_lower', 'ci_upper', 'z', 'p')
+write.csv(out, 'output/18_Medication_by_CNVgroup/Medication_by_CNVgroup.csv')
+
+
+###--------------------------------------------###
+###  19. Medication effect by PRS group        ###    
+###--------------------------------------------###
+
+
+dir.create('output/19_Medication_by_PRS')
+
+genotypes <- c(NA, 'negative', 'no effect', 'positive')
+out <- data.frame(matrix(nrow=0, ncol=7))
+
+for(j in 1:4){
+  df <- genomatrix[which(genomatrix$PRS_BMI_quantile == j),]
+  model <- lm(res_bmi_inv ~ medication + age + sex + PC1 + PC2 + PC3 + PC4 + 
+                PC5 + PC6 + PC7 + PC8 + PC9 + PC10, 
+              data = df, na.action=na.exclude)
+  res <- summary(model)$coefficients
+  estimate <- as.numeric(res['medication', 1])
+  se <- as.numeric(res['medication', 2])
+  ci_lower <-estimate - (1.96*se)
+  ci_upper <- estimate + (1.96*se)
+  z <- as.numeric(res['medication', 3])
+  p <- as.numeric(res['medication', 4])
+  out[nrow(out) + 1,] <- c(j, estimate, se, ci_lower, ci_upper, z, p)
+}
+
+colnames(out) <- c('PRS_quantile', 'estimate', 'se', 'ci_lower', 'ci_upper', 'z', 'p')
+write.csv(out, 'output/19_Medication_by_PRS/Medication_by_PRS.csv')
+
+
+
+
+model_meds <- lm(res_bmi_inv ~ PRS_BMI_zscore + medication + age + sex + PC1 + PC2 + PC3 + PC4 + 
+                   PC5 + PC6 + PC7 + PC8 + PC9 + PC10, 
+                 data = genomatrix, na.action=na.exclude)
+
+model_no_meds <- lm(res_bmi_inv ~  PRS_BMI_zscore + age + sex + PC1 + PC2 + PC3 + PC4 + 
+                   PC5 + PC6 + PC7 + PC8 + PC9 + PC10, 
+                 data = genomatrix, na.action=na.exclude)
+
+
+anova(model_no_meds, model_meds)
