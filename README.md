@@ -24,6 +24,7 @@ The genotype matrices used to calculate CNVxPRS interaction effect for both Heig
 - CNV genotypes for each of the testable CNVs (coded as 1 for del, 2 for no CNV, and 3 for dup)
 - PRS-BMI zscore (or PRS-Height zscore)
 - medication (if applicable, BMI only)
+
 Column names aren't important here as long as all the data is present. We will edit those in step 6!
 
 ### 6. Edit section 0 of Height/Height_FollowUpAnalyses_09182023.R and /BMI/BMI_FollowUpAnalyses_09182023.R
